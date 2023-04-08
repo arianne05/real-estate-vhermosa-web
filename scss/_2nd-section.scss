@@ -1,0 +1,491 @@
+
+//Second Section
+
+.second-main-section{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-header1{
+    color: $primary-green;
+    font-family: 'Inter', sans-serif;
+    font-size: $main-sub-header2;
+    padding-top:30px;
+    padding-left: 30px;
+}
+
+.second-header2{
+    color: $primary-black;
+    font-family: 'Inter', sans-serif;
+    font-size: $main-header2;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.first-parag-header2{
+    color: $primary-gray;
+    font-family: 'Inter', sans-serif;
+    padding-right: 50px;
+    padding-left: 30px;
+    
+}
+
+//Third Section
+.third-main-section{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.first-card {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid $secondary-white;
+    border-radius: 10px;
+    
+}
+
+.first-card:hover{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.third-header2{
+    color: $primary-black;
+    font-family: 'Inter', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.third-parag-header2{
+    color: $primary-black;
+    font-family: 'Inter', sans-serif;
+}
+
+.link-header2{
+    color: $primary-green;
+    font-family: 'Inter', sans-serif;
+    font-size: $link-header;
+    margin-top: 40px;
+    text-align: right;
+    border: none;
+    background-color: #fff;
+}
+
+.link-header2:hover,
+.link-header2:focus{
+    color: $secondary-green;
+    cursor: pointer;
+}
+
+//1st modal
+.modal_1st_card {
+    display: none;
+    position: fixed; 
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.60); /* Black w/ opacity */
+}
+  
+.modal_1st_content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 85%; /* Could be more or less, depending on screen size */
+    height: 85%;
+    border-radius: 1%;
+    overflow: hidden;
+}
+
+.modal_1st_content_text{
+    color: $primary-gray;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    text-align: justify;
+    padding-left: 50%;
+    padding-right: 5%;
+    padding-top: 1%;
+    position: absolute;
+    top: 10%;
+    
+}
+
+.modal_1st_content_bullets li{
+    list-style: disc;
+    margin-top: 2%;
+    font-size: 17px;
+}
+
+.modal_1st_content_bullets li:hover{
+    color: $primary-green;
+}
+
+.num_text{
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.num_text:hover{
+    color: $primary-black;
+    background-color: #F5F5F5;
+}
+
+#slideshow1 {
+    position: fixed;
+    width: 40%;
+    top: 15%;
+    right: 55%;
+    object-fit: contain;
+    float: left;
+}
+#slideshow2 {
+    position: fixed;
+    width: 40%;
+    top: 15%;
+    right: 34%;
+    object-fit: contain;
+    float: left;
+}
+#slideshow3 {
+    position: fixed;
+    width: 40%;
+    top: 47%;
+    right: 55%;
+    object-fit: contain;
+    float: left;
+}
+#slideshow4 {
+    position: fixed;
+    width: 40%;
+    top: 47%;
+    right: 34%;
+    object-fit: contain;
+    float: left;
+}
+  
+#slideshow1 img {
+    position: fixed;
+    width: 20%;
+    top: 15%;
+    opacity: 0;
+    object-fit: contain;
+    transition: opacity 1s ease-in-out;
+    border-radius: 14px;
+}
+#slideshow2 img {
+    position: fixed;
+    width: 20%;
+    top: 15%;
+    opacity: 0;
+    object-fit: contain;
+    transition: opacity 1s ease-in-out;
+    border-radius: 14px;
+}
+#slideshow3 img {
+    position: fixed;
+    width: 20%;
+    top: 47%;
+    opacity: 0;
+    object-fit: contain;
+    transition: opacity 1s ease-in-out;
+    border-radius: 14px;
+}
+#slideshow4 img {
+    position: fixed;
+    width: 20%;
+    top: 47%;
+    opacity: 0;
+    object-fit: contain;
+    transition: opacity 1s ease-in-out;
+    border-radius: 14px;
+}
+  
+#slideshow1 img.active {
+    opacity: 1;
+}
+#slideshow2 img.active {
+    opacity: 1;
+}
+#slideshow3 img.active {
+    opacity: 1;
+}
+#slideshow4 img.active {
+    opacity: 1;
+}
+  
+.close_1st_card{
+    margin-top: 8%;
+    float: right;
+    background-color: $primary-green;
+    color: $primary-white;
+    font-size: $main-sub-header2;
+    padding: 2%;
+    border-radius: 5%;
+    border: none;
+}
+  
+.close_1st_card:hover,
+.close_1st_card:focus {
+    background-color: $secondary-green;
+    cursor: pointer;
+}
+//End of 1st modal
+
+
+//2nd modal
+.modal_2nd_card {
+    display: none;
+    position: fixed; 
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.60); /* Black w/ opacity */
+}
+  
+.modal_2nd_content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 85%; /* Could be more or less, depending on screen size */
+    height: 85%;
+    border-radius: 1%;
+    overflow: hidden;
+}
+
+.modal_2nd_content_text{
+    color: $primary-gray;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    text-align: justify;
+    padding-left: 50%;
+    padding-right: 5%;
+    padding-top: 1%;
+    position: absolute;
+    top: 10%;
+    
+}
+
+.modal_2nd_content_image1{
+    position: fixed;
+    width: 40%;
+    top: 0%;
+    right: 55%;
+    object-fit: contain;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.modal_2nd_content_caption{
+    position: fixed;
+    width: 40%;
+    top: 65%;
+    right: 55%;
+    object-fit: contain;
+    color: $primary-black;
+    font-size: $main-sub-header;
+    font-family: 'Inter', sans-serif;
+}
+
+.modal_2nd_content_image2{
+    position: fixed;
+    width: 45%;
+    height: auto;
+    top: 60%;
+    right: 5%;
+    object-fit: contain;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.modal_2nd_content_bullets{
+    position: fixed;
+    width: 40%;
+    top: 5%;
+    right: 7%;
+    object-fit: contain;
+}
+
+.modal_2nd_content_bullets li{
+    list-style: disc;
+    margin-bottom: 2%;
+    font-size: 17px;
+}
+
+.modal_2nd_content_bullets li:hover{
+    color: $primary-green;
+}
+
+.num_text{
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.num_text:hover{
+    color: $primary-black;
+    background-color: #F5F5F5;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+  
+.close_2nd_card{
+    position: fixed;
+    top: 85%;
+    right: 87%;
+    object-fit: contain;
+
+    background-color: $primary-green;
+    color: $primary-white;
+    font-size: $main-sub-header2;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5%;
+    border: none;
+}
+  
+.close_2nd_card:hover,
+.close_2nd_card:focus {
+    background-color: $secondary-green;
+    cursor: pointer;
+}
+//End of 2nd modal
+
+//3rd Modal
+.modal_3rd_card {
+    display: none;
+    position: fixed; 
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.60); /* Black w/ opacity */
+}
+  
+.modal_3rd_content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 85%; /* Could be more or less, depending on screen size */
+    height: 85%;
+    border-radius: 1%;
+    overflow: hidden;
+}
+
+.modal_3nd_content_image1{
+    position: fixed;
+    width: 40%;
+    top: 25%;
+    right: 29%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.modal_3rd_content_caption{
+    position: fixed;
+    width: 40%;
+    top: 5%;
+    right: 29%;
+    object-fit: contain;
+    color: $primary-black;
+    font-size: $main-sub-header;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.modal_3rd_content_text{
+    color: $primary-gray;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    text-align: justify;
+    padding-left: 50%;
+    padding-right: 5%;
+    padding-top: 1%;
+    position: absolute;
+    top: 10%;
+}
+
+.parag1_3rd_modal{
+    position: fixed;
+    top: 25%;
+    right: 10%;
+}
+
+.parag2_3rd_modal{
+    position: fixed;
+    top: 25%;
+    right: 70%;
+}
+
+.parag3_3rd_modal{
+    position: fixed;
+    top: 47%;
+    right: 77%;
+}
+
+.parag4_3rd_modal{
+    position: fixed;
+    top: 47%;
+    right: 5%;
+}
+
+.parag5_3rd_modal{
+    position: fixed;
+    top: 70%;
+    right: 10%;
+}
+
+.parag6_3rd_modal{
+    position: fixed;
+    top: 70%;
+    right: 70%;
+}
+  
+.close_3rd_card{
+    position: fixed;
+    top: 88%;
+    right: 44%;
+    object-fit: contain;
+
+    background-color: $primary-green;
+    color: $primary-white;
+    font-size: $main-sub-header2;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5%;
+    border: none;
+}
+  
+.close_3rd_card:hover,
+.close_3rd_card:focus {
+    background-color: $secondary-green;
+    cursor: pointer;
+}
+//End of 3rd modal

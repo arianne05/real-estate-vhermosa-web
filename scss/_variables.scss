@@ -1,0 +1,36 @@
+// color pallete
+$primary-green: #40AC85;
+$secondary-green: #64FAC4;
+$tertiary-green: #2FA77C;
+
+$primary-white: #FFFFFF;
+$secondary-white: #E8E8E8;
+
+$primary-black: #303030;
+$primary-gray: #7E7E7E;
+$primary-blue: #57AEFF;
+
+// font sizes
+$main-header: 80px;
+$main-sub-header: 34px;
+
+$button-header: 24px;
+$button-sub-header: 20px;
+$button-menu: 16px;
+
+$body-header: 48px;
+$body-sub-header: 36px;
+$body-parag-header: 24px;
+
+// Font-size 2nd section
+$main-header2: 30px;
+$main-sub-header2: 18px;
+$link-header: 14px;
+
+// font-weight using maps,keys
+// font-weight: map-get($variable, bold);
+$font-weight: (
+    "bold" : 700,
+    "semi-bold" : 500,
+    
+);
