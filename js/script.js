@@ -102,4 +102,7 @@ function myModalSlide(){
     setInterval(nextImage, 3000);
 }
 
-  
+//section transistion on scroll
+function myTransition(){
+    
+}
