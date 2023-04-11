@@ -499,6 +499,42 @@
   cursor: pointer;
 }
 
+.fourth-main-section {
+  background-color: #ECFFF8;
+  width: 100% vh;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.fourth-main-section .fourth-section-header, p {
+  color: #303030;
+  font-family: "Inter", sans-serif;
+  padding-left: 30px;
+}
+
+.fourth-section-header {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.fourth-section-video {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+}
+
+.fourth_caption_video {
+  text-align: center;
+  color: #303030;
+  font-family: "Inter", sans-serif;
+  padding-top: 2%;
+}
+
+.fourth_caption_video_sub {
+  line-height: 2.5;
+}
+
 * {
   margin: 0;
   padding: 0;
