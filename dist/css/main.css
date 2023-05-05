@@ -502,6 +502,7 @@
 .fourth-main-section {
   background-color: #ECFFF8;
   width: 100% vh;
+  height: 100vh;
   padding-top: 30px;
   padding-left: 30px;
 }
