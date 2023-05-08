@@ -499,36 +499,6 @@
   cursor: pointer;
 }
 
-.fourth-main-section {
-  background-color: #cafae8;
-}
-
-.fourth-section-video {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.fourth-section-video h1 {
-  font-family: "Inter", sans-serif;
-  color: #303030;
-  padding: 20px;
-}
-
-.fourth-section-video video {
-  width: 70%;
-  height: 50%;
-  border-radius: 3px;
-}
-
-.fourth-section-video figcaption {
-  font-family: "Inter", sans-serif;
-  color: #303030;
-  padding: 2%;
-}
-
 * {
   margin: 0;
   padding: 0;
