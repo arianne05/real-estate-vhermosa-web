@@ -104,5 +104,15 @@ function myModalSlide(){
 
 //section transistion on scroll
 function myTransition(){
-    
+    const section = document.querySelector('.fourth-main-section');
+const sectionPosition = section.getBoundingClientRect().top;
+const windowHeight = window.innerHeight;
+
+window.addEventListener('scroll', () => {
+  if (sectionPosition < windowHeight / 2) {
+    section.classList.add('visible');
+  } else {
+    section.classList.remove('visible');
+  }
+});
 }
