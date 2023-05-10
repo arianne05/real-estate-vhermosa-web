@@ -542,8 +542,74 @@
   margin-bottom: 50px;
 }
 
+.fifth-main-div-section {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  color: #303030;
+  padding-right: 20px;
+}
+
 .fifth-1st-pic {
+  height: 70% vh;
+  padding-top: 40px;
+  padding-left: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  height: auto;
+}
+
+.text-main-div h1 {
+  justify-content: right;
+  padding-top: 40px;
   padding-left: 50px;
+}
+
+.text-main-div button {
+  background-color: #64FAC4;
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  padding: 10px;
+  margin-top: 40px;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  color: #303030;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+}
+
+.text-sub {
+  text-align: justify;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+.fifth-section-list {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.fifth-section-list p {
+  padding-top: 10px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+.fifth-section-list i {
+  font-size: 15px;
+  color: #7E7E7E;
+}
+
+.list-div {
+  font-family: "Inter", sans-serif;
+  color: #7E7E7E;
+  font-size: 12px;
+  padding-left: 10px;
 }
 
 * {
