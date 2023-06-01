@@ -3,7 +3,6 @@
 .fourth-main-section{
     background-color: $other-green;
     width: 100%vh;
-    height: 100vh;
     padding-top:30px;
     padding-left: 30px;
 }
@@ -33,4 +32,11 @@
 }
 .fourth_caption_video_sub{
     line-height: 2.5;
+}
+
+.fourth-section-icons i{
+    color: green;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 50px;
 }
